@@ -30,16 +30,16 @@ h1, button {
 }
 
 h1, p, button {
-    margin: 10px;
+    margin: 14px 0;
     color: #F9FAF8;
 }
 
 p, a {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .logo {
-    font-size: 35px;
+    font-size: 42px;
 }
 
 .main-text {
@@ -68,7 +68,7 @@ a {
 }
 
 .hero-image {
-    width: 70%;
+    min-width: 70%;
 }
 
 img {
@@ -78,9 +78,124 @@ img {
 }
 
 button {
+    border: 0px none;
     border-radius: 8px;
-    border-style: none;
     font-size: 20px;
     background-color: #3882F6;
-    padding: 10px 30px;
+    padding: 12px 32px;
+    margin: 0;
+}
+
+/* 2nd section */
+
+.section {
+    padding: 30px;
+}
+
+.cards-container h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.card {
+    text-align: center;
+}
+
+.empty-div {
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+    width: 240px;
+    height: 240px;
+}
+
+.card p {
+    text-align: center;
+    margin: 12px 20px;
+    max-width: 200px;
+    color: #1F2937;
+}
+
+/* third-section */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 40px;
+}
+
+.quote-text {
+    margin: 20px auto;
+    width: 700px;
+    font-size: 40px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-owner p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+/* cta */
+
+.cta-container {
+    padding: 100px;
+}
+
+.cta-text h1 {
+    font-weight: 500;
+}
+
+.cta-text p {
+    font-weight: 300;
+}
+
+.cta-text {
+    margin: 40px 60px;
+    text-align: left;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8em;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin: 0 160px;
+    background-color: #3882F6;
+}
+
+.cta-button {
+    font-weight: 700;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.cta-button:hover {
+    background-color: #FFFFFF;
+    color: #3882F6;
+}
+
+/* footer */
+
+.footer-container {
+    background-color: #1F2937;
+    padding: 30px;
+}
+
+.footer-container p {
+    letter-spacing: 4px;
 }
