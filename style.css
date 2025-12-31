@@ -86,6 +86,11 @@ button {
     margin: 0;
 }
 
+.hero-text button:hover {
+    background-color: #E5E7EB;
+    color: #3882F6;
+}
+
 /* 2nd section */
 
 .section {
